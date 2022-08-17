@@ -35,7 +35,7 @@ const PlayerSlice = createSlice({
         [API.getOne.fulfilled.type]: 
         (state, action: PayloadAction<IPlayer>) => {
             state.loading = false;
-            return action.payload.id
+            state.players = [action.payload]
         },
         [API.create.rejected.type]: (state, action) => {
             state.loading = false,

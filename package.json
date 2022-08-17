@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/indigomx9/pern1toolkit_crud.git"
   },
-  "keywords": [],
+  "keywords": ["React", "Webpack", "TypeScript", "React Router", "Redux-Toolkit", "createAsyncThunk"],
   "author": "",
   "license": "ISC",
   "bugs": {
